@@ -7,18 +7,13 @@
 
 import SwiftUI
 
+//Tickets__________________
+
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            Text("Ciao")
-                .navigationTitle("Hours")
+            Text("")
+                .navigationTitle("Tickets")
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
